@@ -1,0 +1,24 @@
+{
+  "name": "desafio-aula09-testes-com-classe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmurai01/desafio-aula09-testes-com-classe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dmurai01/desafio-aula09-testes-com-classe/issues"
+  },
+  "homepage": "https://github.com/dmurai01/desafio-aula09-testes-com-classe#readme",
+  "dependencies": {
+    "mocha": "^11.7.5"
+  }
+}
