@@ -18,9 +18,9 @@ Certifique-se de ter o Node.js instalado. Execute `npm test` para rodar os teste
 Este repositório utiliza um workflow de integração contínua configurado em `.github/workflows/ci.yaml`.
 
 ### Disparadores do workflow
-- `push` na branche `incluindo-pipeline-trabalho-conclusao-ci`
+- `push` na branche `incluindo-pipeline-trabalho-conclusao-ci` e `main`
 - `workflow_dispatch` para execução manual
-- `schedule` para execução agendada diária às 02:00 UTC
+- `schedule` para execução agendada diária às 09:00 UTC
 
 ### O que o workflow faz
 1. Faz checkout do código.
