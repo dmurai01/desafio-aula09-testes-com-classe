@@ -35,3 +35,4 @@ jobs:
         if: always()
         with:
           path: './mochawesome-report'
+          name: relatorio-testes
