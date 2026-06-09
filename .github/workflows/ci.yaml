@@ -1,10 +1,12 @@
 name: CI
 
 on:
+  workflow_dispatch: 
+
   push:
     branches:
       - incluindo-pipeline-trabalho-conclusao-ci
-  workflow_dispatch: {}
+  
   schedule:
     - cron: '0 2 * * *' # Executa diariamente às 02:00 UTC
 

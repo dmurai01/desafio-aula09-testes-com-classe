@@ -26,7 +26,7 @@ Este repositório utiliza um workflow de integração contínua configurado em `
 1. Faz checkout do código.
 2. Configura o Node.js no runner.
 3. Instala as dependências com `npm install`.
-4. Executa os testes usando Mocha e gera um relatório JSON em `test-results/results.json`.
+4. Executa os testes usando Mocha e gera um relatório com Mochawesome em `./mochawesome-html`.
 5. Publica o relatório como artifact da pipeline.
 
 ### Como acessar o relatório
