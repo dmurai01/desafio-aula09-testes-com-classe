@@ -31,6 +31,6 @@ jobs:
           npm run test || true
           npm run report:merge
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: './mochawesome-html'
