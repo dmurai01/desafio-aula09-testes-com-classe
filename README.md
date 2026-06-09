@@ -15,7 +15,7 @@ Certifique-se de ter o Node.js instalado. Execute `npm test` para rodar os teste
 
 ## Integração Contínua com GitHub Actions
 
-Este repositório utiliza um workflow de integração contínua configurado em `.github/workflows/ci.yml`.
+Este repositório utiliza um workflow de integração contínua configurado em `.github/workflows/ci.yaml`.
 
 ### Disparadores do workflow
 - `push` na branche `incluindo-pipeline-trabalho-conclusao-ci`

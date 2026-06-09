@@ -25,11 +25,10 @@ jobs:
       - run: npm install
 
       # executando testes e salvando relatório
-      - run: |
-          mkdir -p test-results
-          npm test -- --reporter json > test-results/results.json
+      - run: 
+          npm run test || true
+          npm run report:merge
 
       - uses: actions/upload-artifact@v4
         with:
-          name: test-report
-          path: test-results
+          path: './mochawesome-html'

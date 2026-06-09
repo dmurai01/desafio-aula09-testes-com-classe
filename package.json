@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha"
+    "test": "npx mocha test/**/*.js --reporter mochawesome",
+    "report:merge": "m mochawesome-report/*.json -o mochawesome-html"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/dmurai01/desafio-aula09-testes-com-classe#readme",
   "dependencies": {
-    "mocha": "^11.7.5"
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4"
   }
 }
