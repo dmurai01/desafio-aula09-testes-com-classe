@@ -1,9 +1,10 @@
 name: CI
 
 on:
-  # push:
-    # branches:
-    #   - incluindo-pipeline-trabalho-conclusao-ci
+  push:
+    branches:
+      - main
+      - incluindo-pipeline-trabalho-conclusao-ci
 
   schedule:
     - cron: '0 9 * * *' # Executa diariamente às 09:00 UTC
